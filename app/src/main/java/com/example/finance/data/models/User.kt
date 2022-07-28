@@ -5,6 +5,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.finance.util.Constants.USER_TABLE
 
+/**
+ * This represents a single table for our users in the SQL ROOM database.
+ */
 @Entity(tableName = USER_TABLE)
 data class User (
     @PrimaryKey(autoGenerate = true)

@@ -9,6 +9,11 @@ import androidx.room.Update
 import com.example.finance.data.models.User
 import kotlinx.coroutines.flow.Flow
 
+/**
+ * This is the data access object for our local user's data. Data Access Objects (DAOs) provide the
+ * functions that our app uses to interact with a database table. ROOM will read our annotation and
+ * create these functions for use at compile time.
+ */
 @Dao
 interface UserDao {
     @Query("SELECT * FROM user_table ORDER BY id ASC")
