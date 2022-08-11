@@ -15,5 +15,6 @@ data class User (
     val firstName: String,
     val lastName: String,
     val email: String,
-    val totalUSD: Float
+    val totalUSD: Float,
+    val password: String, // Testing Purposes Only
 )

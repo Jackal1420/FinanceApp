@@ -1,4 +1,4 @@
-package com.example.finance
+package com.example.finance.ui.views
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
