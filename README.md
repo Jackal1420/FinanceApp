@@ -1,7 +1,7 @@
 # FinanceApp
 Finance app created for practicing full stack app development.
 
-[Main App Directories](https://github.com/Jackal1420/FinanceApp/tree/Add-Dependencies-And-Database/app/src/main/java/com/example/finance)
+[Main App Directories](https://github.com/Jackal1420/FinanceApp/tree/main/app/src/main/java/com/example/finance)
 
 Directories: 
 
